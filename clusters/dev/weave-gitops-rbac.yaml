@@ -85,7 +85,7 @@ metadata:
   namespace: flux-system
 subjects:
 - kind: User
-  name: oidc:info@daocorp.ltd
+  name: info@daocorp.ltd
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
@@ -99,7 +99,7 @@ metadata:
   namespace: flux-system
 subjects:
 - kind: User
-  name: oidc:info@daocorp.ltd
+  name: info@daocorp.ltd
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
